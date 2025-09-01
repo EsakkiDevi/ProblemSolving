@@ -69,7 +69,7 @@ class SumOfTwoPrime
   {
   int n=50;
   boolean t=false;
-  for(int i=2;i<n ;i++)
+  for(int i=2;i<n;i++)
   {
     if(isCheckPrime(i) && isCheckPrime(n-i))
     {
